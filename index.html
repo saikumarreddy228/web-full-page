@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleupweb.css">
+    <title>FLIGHT BOOKING</title>
+</head>
+<body>
+    <div class="box">
+        <header class="header">
+            <div class="logo">
+                <img src="photos/flightlogo.png" alt="flightlogo" class="flight-logo-img">
+
+            </div>
+            <nav class="main-nav">
+                <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Book Tickets</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Holiday Package</a></li>
+                </ul>
+                <a href="#" class="contact-link">Contact us</a>
+            </nav>
+
+        </header>
+
+        <div class="content">
+            <div class="banner">
+                
+                <video autoplay muted loop class="video-bg">
+                    <source src="photos/flight.mp4" type="video/mp4">
+                 </video>
+                <div class="banner-text">
+                    <div class="para">Where will your dreams take you? Book now and see the world.</div>
+                    <div class="para">Make every journey memorable. Find your perfect flight in seconds. </div>
+                    <div class="para">Search, compare, and book flights with just a click—no hidden fees, instant confirmation.</div>
+                </div>
+            </div>
+             <form class="flight-form">
+                <div class="form-main-row">
+                    <div class="form-group">
+                        <label for="trip-type">TRIP TYPE</label>
+                        <select id="trip-type">
+                            <option>One Way</option>
+                            <option>Round Trip</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="from-loc">FROM</label>
+                        <input id="from-loc" type="text" value="New Delhi, India">
+                    </div>
+                    <div class="form-group">
+                        <label for="to-loc">TO</label>
+                        <input id="to-loc" type="text" value="Dubai, United Arab Emirates">
+                    </div>
+                    <div class="form-group">
+                        <label for="depart-date">DEPART</label>
+                        <input id="depart-date" type="date" value="2025-10-03">
+                    </div>
+                    <div class="form-group">
+                        <label for="return-date">RETURN</label>
+                        <input id="return-date" type="text" value="Select Return" disabled>
+                    </div>
+                    <div class="form-group small-input">
+                        <label for="passengers">PASSENGERS & CLASS</label>
+                        <input id="passengers" type="text" value="1 Adult, Economy/Premium" disabled>
+                    </div>
+                </div>
+                <div class="form-options-row">
+                    <div class="fare-type-group">
+                        <span class="fare-type-label">Fare Type:</span>
+                        <div class="fare-radio-group">
+                            <label class="fare-radio"><input type="radio" name="fare-type" checked> Regular</label>
+                            <label class="fare-radio"><input type="radio" name="fare-type"> Student</label>
+                        </div>
+                    </div>
+                    <div class="zero-cancel">
+                        <input type="checkbox" id="zero-cancellation">
+                        <label for="zero-cancellation">Add Zero Cancellation</label>
+                    </div>
+                    <button class="search-btn" type="submit">SEARCH</button>
+                </div>
+            </form>
+
+            
+        <h3 class="flight">FLIGHT TICKETS</h3>
+
+    <div class="tickets">
+    
+    <div class="ticket">
+      <img src="photos/indigo.png" alt="IndiGo Flight">
+      <div class="ticket-content">
+        <h3>IndiGo Airlines</h3>
+        <p><span class="icon">💲</span> ₹3,539</p>
+        <p><span class="icon">🛫</span> Hyderabad → Delhi</p>
+        <p><span class="icon">⏰</span> 10:30 AM - 12:45 PM</p>
+        <p><span class="icon">📍</span> Rajiv Gandhi Intl Airport</p>
+      </div>
+    </div>
+    <div class="ticket">
+      <img src="photos/Air-India.png" alt="Air India Flight">
+      <div class="ticket-content">
+        <h3>Air India</h3>
+        <p><span class="icon">💲</span> ₹10,700</p>
+        <p><span class="icon">🛫</span> Mumbai → Singapore</p>
+        <p><span class="icon">⏰</span> 11:00 PM - 05:30 AM</p>
+        <p><span class="icon">📍</span> Chhatrapati Shivaji Intl Airport</p>
+      </div>
+    </div>
+    <div class="ticket">
+        <img src="photos/emirates.png" alt=" Emirates">
+        <div class="ticket-content">
+            <h3>Emirates</h3>
+            <p><span class="icon">💲</span> AED 415</p>
+            <p><span class="icon">🛫</span> Mumbai → Dubai</p>
+            <p><span class="icon">⏰</span> 12:00 PM - 07:30 AM</p>
+            <p><span class="icon">📍</span> Chhatrapati Shivaji Intl Airport</p>
+        </div>
+    </div>
+    <div class="ticket">
+        <img src="photos/SpiceJet.png" alt="SpiceJet">
+        <div class="ticket-content">
+            <h3>Spice Jet</h3>
+            <p><span class="icon">💲</span> ₹9,905</p>
+            <p><span class="icon">🛫</span> Mumbai → Dubai</p>
+            <p><span class="icon">⏰</span> 12:00 PM - 07:30 AM</p>
+            <p><span class="icon">📍</span> Chhatrapati Shivaji Intl Airport</p>
+        </div>
+    </div>
+     <div class="ticket">
+        <img src="photos/flydubai.png" alt="Air dubai Flight">
+        <div class="ticket-content">
+            <h3>Qatar Airways</h3>
+            <p><span class="icon">💲</span> ₹11,550</p>
+            <p><span class="icon">🛫</span> Mumbai → Dubai</p>
+            <p><span class="icon">⏰</span> 12:00 PM - 07:30 AM</p>
+            <p><span class="icon">📍</span> Chhatrapati Shivaji Intl Airport</p>
+        </div>
+    </div>
+     <div class="ticket">
+        <img src="photos/american.png" alt="American Airlines">
+        <div class="ticket-content">
+            <h3>American Airlines</h3>
+            <p><span class="icon">💲</span> ₹6,550</p>
+            <p><span class="icon">🛫</span> Mumbai → Dubai</p>
+            <p><span class="icon">⏰</span> 12:00 PM - 07:30 AM</p>
+            <p><span class="icon">📍</span> Chhatrapati Shivaji Intl Airport</p>
+        </div>
+    </div>
+  </div>
+
+             <div class="about-section">
+                <img src="photos/About.png" class="side-img" alt="side">
+            
+                <div class="side-text">
+                    <h1>About Us</h1>
+                    <p>At FlyAway, we believe that every journey should be effortless, memorable, and affordable. Founded out of a passion for making travel accessible to everyone, our mission is to simplify flight booking by offering transparent pricing, a user-friendly platform, and exceptional customer support.</p>
+                    <p>Our team consists of experienced travel enthusiasts and technology experts dedicated to providing you with the best deals and an intuitive booking experience. From your first search to the moment you take off, we strive to be your trusted travel companion.</p>
+                    <p>Over the years, FlyAway has grown from a small startup to a leading platform serving thousands of travelers daily. We continuously innovate to bring you the newest flight options, exclusive offers, and seamless tools to plan your perfect trip.</p>
+                 </div>
+            </div>
+
+            <div class="main-section">
+                <h1 class="service">Our services</h1>
+                <div class="services">
+                    <div class="service-item">
+                        <img src="photos/booking.png" class="service-img" >
+                        <h2>Online-Booking</h2>
+                        <p>Book flights instantly from anywhere with secure payment and instant confirmation. Enjoy a smooth booking experience tailored for busy travelers</p>
+                    </div>
+                    <div class="service-item">
+                        <img src="photos/support.png" class="service-img" >
+                        <h2>Customer-Support</h2>
+                        <p>Our dedicated support team is available around the clock to help with itinerary changes, cancellations, and answering travel queries.</p>
+                    </div>
+                    <div class="service-item">
+                        <img src="photos/credit-card.png" class="service-img" >
+                        <h2>Special Offers</h2>
+                        <p>Discover special discounts, early-bird deals, and limited-time promotions on flights worldwide to make your travel budget-friendly</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="footer-section">
+            <div class="footer-col">
+                <h4>About FlyAway</h4>
+                <p>Your one-stop destination for booking affordable and convenient flight tickets to anywhere in the world.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Book Tickets</a></li>
+                    <li><a href="#">Holiday Package</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact Us</h4>
+                <p>123 KPHB Colony, Hyderabad<br>Telangana, 500000</p>
+                <p><a href="mailto:travel@gmail.com">travel@gmail.com</a></p>
+                <p><a href="tel:+9768787567">+97 6878 7567</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p> 2025 FlyAway</p>
+        </div>
+    </div>
+
+</body>
+</html>
